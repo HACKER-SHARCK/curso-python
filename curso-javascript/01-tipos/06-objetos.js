@@ -11,6 +11,7 @@ console.log(personaje);
 console.log(personaje.nombre);
 console.log(personaje["anime"]);
 
+//da error porque la edad en realidad es 16
 personaje.edad = 13;
 
 let llave = "edad";
