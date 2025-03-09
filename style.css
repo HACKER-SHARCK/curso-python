@@ -1,0 +1,31 @@
+.contenedor-productos {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+
+
+}
+
+.items {
+    background-color: rgb(229, 219, 219);
+
+    flex-direction: column;
+
+    width: 40%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.items img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+
+}
